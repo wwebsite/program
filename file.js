@@ -4,13 +4,12 @@ function addEmail(){
     emailList.push(" " +  newEmail)
     document.getElementById('se').innerHTML = 'refresh emails'
     // Store data
-    var someData = emailList
+    var someData = newEmail
     localStorage.setItem('myDataKey', someData);
-
-    // Get data
-    emailList.push(localStorage.getItem('myDataKey'))
 }
 
 function showEmails(){
     document.getElementById('emailss').innerHTML = emailList
+    // get data
+    var data = localStorage.getItem('myDataKey');
 }
