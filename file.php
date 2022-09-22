@@ -1,3 +1,3 @@
 <?php
-mail('themak722@gmail.com', 'test subject', 'hello','From: themak7222@gmail.com');
+mail('mak.che0092@g.rentonschools.us', 'test subject', 'hello','From: mak.che0092@g.rentonschools.us');
 ?>
